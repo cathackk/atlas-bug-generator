@@ -1,0 +1,133 @@
+{
+  "templates": {
+    "form": {
+      "keys": ["actor", "poss", "verb_f", "adj_f", "subj_f"],
+      "prob": 2
+    },
+    "person": {
+      "keys": ["actor", "poss", "verb_p", "adj_p", "subj_p"],
+      "prob": 1
+    }
+  },
+  "parts": {
+    "actor": [
+      "admin",
+      "BSS user",
+      "cat-or-dog user",
+      "deleted user",
+      "form assignees",
+      "guest assignee",
+      "guest user",
+      "guest vendor",
+      "guest VRM",
+      "invited user",
+      "logged out user",
+      "mabl user",
+      "Pavla",
+      "proxy assignee",
+      "proxy user",
+      "proxy vendor",
+      "proxy VRM",
+      "unconfirmed proxy",
+      "unconfirmed user",
+      "user which is both vendor and VRM",
+      "user with no credits",
+      "user without SSC account",
+      "vendor",
+      "VRM"
+    ],
+    "poss": [
+      "can",
+      "cannot",
+      "is unable to",
+      "is able to",
+      "has permission to",
+      "doesn't have permission to"
+    ],
+    "verb_f": [
+      "accept",
+      "access",
+      "add comments to",
+      "answer questions in",
+      "archive",
+      "copy answers from lookup lenses to",
+      "copy master form to",
+      "invite proxy users to",
+      "create collaboration link for",
+      "delegate categories in",
+      "delegate questions in",
+      "delegate",
+      "delete answers in",
+      "delete attachments in",
+      "delete",
+      "dismiss notifications in",
+      "fill answers in",
+      "flag questions in",
+      "review answers in",
+      "see lookup lenses in",
+      "see notifications in",
+      "see SSC data in",
+      "see",
+      "send",
+      "share",
+      "share answers from",
+      "submit",
+      "unarchive",
+      "upload attachments to"
+    ],
+    "adj_f": [
+      "accepted",
+      "archived",
+      "cancelled",
+      "deleted",
+      "draft",
+      "master",
+      "merged",
+      "proxied",
+      "unsent",
+      "shared",
+      "unanswered",
+      "unarchived",
+      "unfilled"
+    ],
+    "subj_f": [
+      "forms",
+      "form fillings",
+      "requests",
+      "questionnaires"
+    ],
+    "verb_p": [
+      "assign",
+      "be invited by",
+      "be notified by",
+      "be proxied by",
+      "be unassigned by",
+      "delegate to",
+      "invite",
+      "notify",
+      "proxy to",
+      "receive requests from",
+      "remove",
+      "see",
+      "send to",
+      "unassign"
+    ],
+    "adj_p": [
+      "admin",
+      "guest",
+      "invited",
+      "other",
+      "proxied",
+      "proxy",
+      "same-company",
+      "SSC",
+      "unconfirmed",
+      "uninvited",
+      "vendor",
+      "VRM"
+    ],
+    "subj_p": [
+      "users"
+    ]
+  }
+}
